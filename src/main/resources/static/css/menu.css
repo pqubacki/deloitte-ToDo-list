@@ -1,0 +1,15 @@
+.fixed-content {
+    top: 0;
+    bottom:0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    position:fixed;
+    overflow-y:auto;
+    overflow-x:hidden;
+    margin-top: -40px;
+    height: 100%;
+}
+.fixed-content::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+
+}
